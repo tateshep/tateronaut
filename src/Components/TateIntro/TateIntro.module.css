@@ -1,5 +1,5 @@
 .githubLink {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 24px;
 }
 .starsContainer {
@@ -9,4 +9,5 @@
 .contentCentered {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
