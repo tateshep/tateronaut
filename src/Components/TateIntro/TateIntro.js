@@ -10,10 +10,12 @@ export const TateIntro = () => {
   const stars = ['','','','',''].map((item, value) => (<Icon icon="star" key={value} className='star-icon' large />));
 
   return (
-    <section className={styles.contentVertical}>
+    <section>
      <h1>Tate Shepherd</h1>
      <Container title="Five Star Website">
-       {stars}
+       <div className={styles.starsContainer}>
+         {stars}
+       </div>
      </Container>
      <Container >
       <h2>Find me on Github</h2>

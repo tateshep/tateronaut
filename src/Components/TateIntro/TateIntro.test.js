@@ -8,8 +8,4 @@ describe('', () => {
     const wrapper = shallow(<TateIntro />);
     expect(wrapper.find('.tate-intro').length).toEqual(1);
   });
-  // it('when it successfully renders it renders 5 stars', () => {
-  //   const wrapper = shallow(<TateIntro />);
-  //   expect(wrapper.find('.stars-icon').length).toEqual(5);
-  // });
 });

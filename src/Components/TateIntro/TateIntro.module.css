@@ -2,12 +2,11 @@
   font-size: 2rem;
   margin: 24px;
 }
-.contentVertical {
+.starsContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: 'space-between';
+  justify-content: space-between;
 }
 .contentCentered {
   display: flex;
-  justify-content: 'space-around';
+  justify-content: space-around;
 }
