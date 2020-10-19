@@ -3,13 +3,8 @@ import { shallow } from 'enzyme';
 import { {{componentName}} } from './{{componentName}}';
 
 describe('{{componentName}}', () => {
-  it('should render null when  is not supposed to render', () => {
-    const wrapper = shallow(<{{componentName}} shouldShowComponentVar={false} />);
-    expect(wrapper.type()).toEqual(null);
-  });
-
   it('when it successfully renders it renders an element with the appropriate class-name', () => {
-    const wrapper = shallow(<{{componentName}} shouldShowComponentVar={true} />);
+    const wrapper = shallow(<{{componentName}} />);
     expect(wrapper.find('.class-name').length).toEqual(1);
   });
 });
