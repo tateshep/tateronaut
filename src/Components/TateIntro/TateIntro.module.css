@@ -1,0 +1,13 @@
+.githubLink {
+  font-size: 2rem;
+  margin: 24px;
+}
+.contentVertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: 'space-between';
+}
+.contentCentered {
+  display: flex;
+  justify-content: 'space-around';
+}
