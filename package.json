@@ -5,12 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "plop": "plop"
   },
   "dependencies": {
     "nes-react": "1.0.2",
     "next": "9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "plop": "2.7.4"
   }
 }

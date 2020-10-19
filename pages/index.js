@@ -17,7 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>Tate Shepherd</h1>
-        <Container title="Hella good score">
+        <Container title="Five Star Website">
             <Icon icon="star" large />
             <Icon icon="star" large />
             <Icon icon="star" large />
@@ -28,7 +28,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>
-          Powered by whiskey{' '}
+          Powered by Tateronaut{' '}
         </p>
       </footer>
     </div>
