@@ -19,12 +19,21 @@ export const TateIntro = () => {
          {stars}
        </div>
      </Container>
-     <Container className={styles.contentContainer}>
-      <h2>Find me on Github</h2>
-      <div className={styles.contentCentered}>
-        <Sprite sprite='octocat' />
-        <a className={styles.githubLink} href='https://github.com/tateshep' target='_blank'>@tateshep</a>
+     <Container className={styles.linkContainer}>
+      <div>
+        <a href='https://github.com/tateshep' target='_blank' rel='noopener noreferrer'>
+          <Icon icon='github' large/>
+        </a>
       </div>
+      <a href='https://www.linkedin.com/in/tate-shepherd' target='_blank' rel='noopener noreferrer'>
+        <Icon icon='linkedin'  large/>
+      </a>
+      <a href='https://www.facebook.com/tate.shepherd' target='_blank' rel='noopener noreferrer'>
+        <Icon icon='facebook' large/>
+      </a>
+      <a href='mailto:tateshep@gmail.com'>
+        <Icon icon='gmail' large/>
+      </a>
      </Container>
     </section>
   );
