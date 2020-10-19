@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head'
-import { Container, Icon } from "nes-react";
 import styles from '../styles/Home.module.css'
+import TateIntro from '../Components/TateIntro/TateIntro';
 
 export default function Home() {
   return (
@@ -16,14 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Tate Shepherd</h1>
-        <Container title="Five Star Website">
-            <Icon icon="star" large />
-            <Icon icon="star" large />
-            <Icon icon="star" large />
-            <Icon icon="star" large />
-            <Icon icon="star" large />
-          </Container>
+        <TateIntro />
       </main>
 
       <footer className={styles.footer}>
