@@ -1,3 +1,8 @@
+.contentContainer {
+  margin: 24px;
+  max-width: 700px;
+}
+
 .githubLink {
   font-size: 1.5rem;
   margin: 24px;
@@ -5,8 +10,10 @@
 .starsContainer {
   display: flex;
   justify-content: space-between;
+  max-width: 400px;
 }
 .contentCentered {
+  max-width: 400px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
