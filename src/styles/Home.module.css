@@ -16,8 +16,11 @@
   justify-content: center;
   align-items: center;
 }
-.main h1 {
-  font-size: 2rem;
+.main h1 h2 {
+  font-size: 1rem;
+}
+.main p {
+  font-size: .75rem;
 }
 .main section {
   max-width: 100%;
@@ -127,3 +130,20 @@
     flex-direction: column;
   }
 }
+@media (min-width: 600px){
+  .main p {
+    font-size: 1rem;
+  }
+  .main section {
+    margin: 32px 32px;
+  }
+}
+@media (min-width: 1200px){
+  .main p {
+    font-size: 1.25rem;
+  }
+  .main section {
+    margin: 32px 128px;
+  }
+}
+

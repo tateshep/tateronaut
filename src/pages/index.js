@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Tateronaut | Home</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           href='https://fonts.googleapis.com/css?family=Press+Start+2P'
