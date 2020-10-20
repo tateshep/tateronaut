@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import { Container, TextInput, TextArea, Button } from "nes-react";
 /** actions */
 
 /** helpers */
-
+import fetchSlack from '../../utils/fetchSlack';
 
 export const SlackContact = () => {
   const [name, setName] = useState('');
@@ -16,30 +16,11 @@ export const SlackContact = () => {
     "text": `Name: ${name} \n${email} \n${message}`
   }
 
-  const submitForm = async (url='', data={}) => {
-
-    const res = await fetch(url, {
-      method: 'POST', // *GET, POST, PUT, DELETE, etc.
-      mode: 'no-cors', // no-cors, *cors, same-origin
-      cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-      credentials: 'include', // include, *same-origin, omit
-      headers: {
-        'Content-Type': 'application/json'
-        // 'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      redirect: 'follow', // manual, *follow, error
-      referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-      body: JSON.stringify(data) // body data type must match "Content-Type" header
-    });
-
-    return res.json()
-  }
-
   const handleClick = () => {
-    submitForm(webhookURL, myData)
-      .then(response => response.json())
+    fetchSlack(webhookURL, myData)
+      .then(response => console.log(response))
       .then(data=>{
-        console.log(data);
+        return data;
       })
       .catch(err => {
         console.error('There was an ERROR!!!',err)
@@ -48,7 +29,7 @@ export const SlackContact = () => {
 
 
   return (
-    <Container title="Contact Me" className='slack-contact'>
+    <Container title="Contact My Slackbot" className='slack-contact'>
           <TextInput
             label="Name"
             placeholder="Input Name"
