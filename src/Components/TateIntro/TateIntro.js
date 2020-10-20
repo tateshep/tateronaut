@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Icon, Sprite } from "nes-react";
+import { Container, Icon } from "nes-react";
 import styles from './TateIntro.module.css';
 /** actions */
 

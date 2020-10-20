@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import TateIntro from '../Components/TateIntro/TateIntro';
+import SlackContact from '../Components/SlackContact/SlackContact';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <TateIntro />
+        <SlackContact />
       </main>
 
       <footer className={styles.footer}>
