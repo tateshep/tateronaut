@@ -8,7 +8,6 @@ import styles from './ContactMe.module.css';
 
 export const ContactMe  = () => {
 
-
   return (
     <div className={`contact-me ${styles.contactDiv}`}>
      <Container className={styles.linkContainer}>

@@ -13,7 +13,7 @@ export const SlackContact = () => {
 
   const webhookURL = 'https://hooks.slack.com/services/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';
   const myData = {
-    "text": `Name: ${name} \n${email} \n${message}`
+    "text": `Name: ${name} \nemail: ${email} \nmessage: ${message}`
   }
 
   const handleClick = () => {
