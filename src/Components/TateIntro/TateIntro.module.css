@@ -3,17 +3,8 @@
 
 }
 
-.githubLink {
-  font-size: 1.5rem;
-  margin: 24px;
-}
 .starsContainer {
   display: flex;
   justify-content: space-between;
   max-width: 400px;
-}
-.linkContainer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
