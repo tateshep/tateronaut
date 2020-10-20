@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import TateIntro from '../Components/TateIntro/TateIntro';
 import SlackContact from '../Components/SlackContact/SlackContact';
+import ContactMe from '../Components/ContactMe/ContactMe';
 
 export default function Home() {
   return (
@@ -20,12 +21,7 @@ export default function Home() {
         <TateIntro />
         <SlackContact />
       </main>
-
-      <footer className={styles.footer}>
-        <p>
-          Powered by Tateronaut{' '}
-        </p>
-      </footer>
+      <ContactMe />
     </div>
   )
 }
