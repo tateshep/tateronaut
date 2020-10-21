@@ -1,3 +1,8 @@
+## About
+
+This is the source code for the portfolio/contact website for tateshep. Can be seen here:
+https://tateronaut.vercel.app/
+
 ## Getting Started
 
 First, run the development server:
@@ -15,4 +20,3 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Or view the deployed version at https://tateronaut.vercel.app/
