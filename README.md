@@ -7,7 +7,7 @@ https://tateronaut.vercel.app/
 
 Put the files in your computer
 
-![why no working!?!](https://media2.giphy.com/media/908fS3eQFUodG/giphy.gif?cid=ecf05e47170a7c90a8b83cede6169a3bed462ea8ab969a59&rid=giphy.gif)
+![files in computer image](https://media2.giphy.com/media/xUPGcmvgjMIEhy6jZu/giphy.gif?cid=ecf05e4747d9b8db584932300e521cbee2990286bf2f8f4b&rid=giphy.gif)
 
 Run the development server:
 
