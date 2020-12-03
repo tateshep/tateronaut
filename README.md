@@ -2,7 +2,7 @@
 
 This is the source code for the portfolio/contact website for tateshep.
 
-Note-worth technologies implemented in this project:
+Note-worthy technologies implemented in this project:
 - React
 - Next.js
 - Redux via Redux toolkit
