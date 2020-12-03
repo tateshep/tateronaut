@@ -3,10 +3,11 @@
 This is the source code for the portfolio/contact website for tateshep.
 
 Note-worthy technologies implemented in this project:
-- React
-- Next.js
-- Redux via Redux toolkit
-- nes-react
+- **React** for erythang
+- **Next.js** for getting off the ground, project organization, deploying, etc.
+- **Vercel** for deploying
+- **Redux** via Redux toolkit for state management
+- **nes-react** for stylish glory
 
 Can be viewed here:
 https://tateronaut.vercel.app/
